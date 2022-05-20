@@ -1,0 +1,19 @@
+.full-header {
+    background-color: #faf9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-1 {
+    flex-direction: ;
+}
+
+.full-header-title {
+    color: #616161;
+    font-size: 16px;
+}
+
+.full-header-icon {
+    color: #616161;
+    font-size: 64px;
+}
