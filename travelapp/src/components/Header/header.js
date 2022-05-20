@@ -1,7 +1,7 @@
 function Header() {
     // console.log("Entering Header component");
     const headerTitle = "Random Holiday Selector";
-    const teamIcon = "ICON"; //TODO: change this to an image
+    const teamIcon = "F4"; //TODO: change this to an image
 
     return (
         <div className="full-header">

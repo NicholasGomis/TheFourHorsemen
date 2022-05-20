@@ -12,7 +12,11 @@ export function Selector({ buttonText, handleClick }) {
         <div className="selector">
             <Header />
             <p className="selector-description"> {selectorDescription}</p>
-            {/* need to render background image here  */}
+            <img
+                className="selector-background-image"
+                alt="background image of airplane"
+                src="../../../public/bgImage.jpg"
+            ></img>
             <FindHoliday buttonText={buttonText} handleClick={handleClick} />
         </div>
     );
