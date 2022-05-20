@@ -1,11 +1,15 @@
 .full-header {
     background-color: #faf9f9;
+    width: 100vw;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .wrap-1 {
-    flex-direction: ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .full-header-title {
