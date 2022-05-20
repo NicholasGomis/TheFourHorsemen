@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import FindHoliday from "../FindHoliday/findHoliday.js";
 import Header from "../Header/header.js";
+import "./selector.css";
 
 export function Selector({ buttonText, handleClick }) {
     const selectorDescription =
@@ -15,7 +16,7 @@ export function Selector({ buttonText, handleClick }) {
             <img
                 className="selector-background-image"
                 alt="background image of airplane"
-                src="../../../public/bgImage.jpg"
+                src="bgImage.jpg"
             ></img>
             <FindHoliday buttonText={buttonText} handleClick={handleClick} />
         </div>
