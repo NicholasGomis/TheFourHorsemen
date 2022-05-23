@@ -2,7 +2,7 @@ import "./header.css";
 
 function Header() {
     // console.log("Entering Header component");
-    const headerTitle = "Random Holiday Selector";
+    const headerTitle = "Help! Find Me A Holiday";
     const teamIcon = "F4"; //TODO: change this to an image
 
     return (

@@ -4,6 +4,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Selector from "../Selector/selector.js";
 import Display from "../Display/display.js";
+import Footer from "../Footer/footer.js";
 
 function App() {
     const [countryData, setCountryData] = useState();
@@ -48,23 +49,23 @@ function App() {
         //buttonText = "Roll Again!";
     }
 
+    //TODO: change following code to  using ? : for more succinct if-statement
     if (buttonText === "Roll Again!") {
         return (
             <div className="App">
-             
                 <Selector buttonText={buttonText} handleClick={handleClick} />
                 <Display />
+                <Footer />
             </div>
         );
     } else {
         return (
             <div className="App">
-               
                 <Selector buttonText={buttonText} handleClick={handleClick} />
+                <Footer />
             </div>
         );
     }
-
 }
 
 export default App;
