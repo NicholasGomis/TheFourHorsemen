@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import FindHoliday from "../FindHoliday/findHoliday.js";
 import Header from "../Header/header.js";
 import "./selector.css";
 
 export function Selector({ buttonText, handleClick }) {
     const selectorDescription =
-        "Everyone is ready to travel again - Don't know where to go? we are here to help. Let us randomly choose your next holiday destination for you!";
+        "Everyone is ready to travel again - Don't know where to go? We are here to help. Let us randomly choose your next holiday destination for you!";
 
     const selectorBackgroundImage = ""; //TODO: replace with actual image path
 
