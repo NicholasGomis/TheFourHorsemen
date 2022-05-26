@@ -10,7 +10,7 @@ function Display() {
     const secondSubHeaderText = "Learn more!";
 
     return (
-        <div className="display-facts">
+        <section className="display-facts">
             <SubHeader subHeader={firstSubHeaderText} />
             <Info property="Country" value={sampleData.name.common} />
             <Info property="Currency" value={sampleData.currencies} />
@@ -20,7 +20,7 @@ function Display() {
             <Info property="Continent" value={sampleData.capital} />
             <Info property="Poulation" value={sampleData.population} />
             {/* <Info property="Language" /> */}
-        </div>
+        </section>
     );
 }
 

@@ -6,12 +6,12 @@ function Header() {
     const teamIcon = "F4"; //TODO: change this to an image
 
     return (
-        <div className="full-header">
+        <header className="full-header">
             <div className="wrap-1">
                 <h1 className="full-header-title"> {headerTitle}</h1>
                 <p className="full-header-icon"> {teamIcon}</p>
             </div>
-        </div>
+        </header>
     );
 }
 

@@ -15,33 +15,30 @@ function App() {
     const [isFindHolidayPressed, setIsFindHolidayPressed] = useState(false);
     const [buttonText, setButtonText] = useState(findHolidayButtonTextOnLoad);
 
+    //sinead: this was just a temp call to test printing out data from another api.
+    // useEffect(() => {
+    //     const BASE_URL = "https://countriesnow.space/api/v0.1/countries";
+    //     let getCountries = async () => {
+    //         const response = await fetch(`${BASE_URL}`).then((response) =>
+    //             response.json()
+    //         );
+    //         const { data } = response;
+
+    //         data.forEach((country) => {
+    //             console.log(country); // {"country": "Afghanistan", "cities": [ "Herat", "Kabul", "Kandahar", "Molah", ...]}
+    //         });
+    //     };
+    //     getCountries();
+    // }, []);
+
+    //Sinead: since we only want to retrieve a random holiday whenever the user preses the button ,we can put the API call inside the handleclick - it does'nt need to be inside a user effect
     // useEffect(() => {
     //     if (isFindHolidayPressed) {
     //         loadCountryData();
     //     }
     // }, [isFindHolidayPressed]);
 
-    useEffect(() => {
-        const BASE_URL = "https://countriesnow.space/api/v0.1/countries";
-
-        // let getCountries = async () => {
-        //     const response = await fetch(`${BASE_URL}`).then((response) =>
-        //         response.json()
-        //     );
-        //     const { data } = response;
-
-        //     data.forEach((country) => {
-        //         console.log(country); // {"country": "Afghanistan", "cities": [ "Herat", "Kabul", "Kandahar", "Molah", ...]}
-        //     });
-        // };
-    }, []);
-
     const fetchCountryData = async function () {
-        // const response = await fetch(API_URL);
-        // const data = await response.json();
-        // setCountryData(data[247]); // TODO: do the random country picker here - instead of hardcoding to 247
-        // console.log(data[247]); //TODO: currently just retrieving a fixed country - need to change this
-
         const randomCountryCode = selectRandomCountryCode();
         const response = await fetch(
             `${API_URL_SPECIFIC_CODE_ROOT}${randomCountryCode}`

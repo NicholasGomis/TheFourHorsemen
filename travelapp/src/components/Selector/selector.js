@@ -10,7 +10,7 @@ export function Selector({ buttonText, handleClick }) {
     const selectorBackgroundImage = ""; //TODO: replace with actual image path
 
     return (
-        <div className="selector">
+        <section className="selector">
             <Header />
             <p className="selector-description"> {selectorDescription}</p>
             <img
@@ -19,7 +19,7 @@ export function Selector({ buttonText, handleClick }) {
                 src="bgImage.jpg"
             ></img>
             <FindHoliday buttonText={buttonText} handleClick={handleClick} />
-        </div>
+        </section>
     );
 }
 
