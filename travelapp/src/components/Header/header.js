@@ -1,7 +1,7 @@
 import "./header.css";
 
 function Header() {
-    // console.log("Entering Header component");
+    console.log(" *** Entering HEADER component *** ");
     const headerTitle = "Help! Find Me A Holiday";
     const teamIcon = "F4"; //TODO: change this to an image
 

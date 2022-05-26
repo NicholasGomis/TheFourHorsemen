@@ -1,7 +1,7 @@
 import "./footer.css";
 
 function Footer() {
-    console.log("Entering Footer component");
+    console.log(" *** Entering FOOTER component *** ");
 
     // FYI, using semantic HTML as per https://www.w3schools.com/html/html5_semantic_elements.asp
     return (

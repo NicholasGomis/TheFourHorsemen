@@ -4,7 +4,9 @@ import Header from "../Header/header.js";
 import "./selector.css";
 
 export function Selector({ buttonText, handleClick }) {
-    const selectorDescription =
+    console.log(" *** Entering SELECTOR component *** ");
+
+    const notes =
         "Everyone is ready to travel again - Don't know where to go? We are here to help. Let us randomly choose your next holiday destination for you!";
 
     const selectorBackgroundImage = ""; //TODO: replace with actual image path
@@ -12,7 +14,7 @@ export function Selector({ buttonText, handleClick }) {
     return (
         <section className="selector">
             <Header />
-            <p className="selector-description"> {selectorDescription}</p>
+            <p className="selector-description"> {notes}</p>
             <img
                 className="selector-background-image"
                 alt="background image of airplane"

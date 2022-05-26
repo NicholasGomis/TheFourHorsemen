@@ -1,13 +1,19 @@
 import React from "react";
-import "./info-renamed.css";
+import "./info-renamed.css"; //sinead: i had to rename because it was Info.css (captal 'I' and Github gets in a terrible knot if all you do is change the case of some letters - you have to rename as well.  TODO: Later we can rename back once it's all merged and everyone has pulled down the correct version
+import { INFO_IMAGE, INFO_TEXT } from "../../libs/config.js";
 
-export function Info({ property, value }) {
+export function Info({ property, value, infoType }) {
+    console.log(" *** Entering INFO component *** ");
     // currency, carSide, capital, continent, population, language, timeZone
 
     return (
         <div>
             <h4 className="info-property">{property}</h4>
-            <h4 className="info-value">{value}</h4>
+            {infoType === INFO_TEXT ? (
+                <h4 className="info-value">{value}</h4>
+            ) : (
+                <img className="info-value" src={value}></img>
+            )}
         </div>
 
         // <div>
