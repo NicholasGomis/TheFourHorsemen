@@ -1,4 +1,5 @@
 import "./App.css";
+import "../layout.css";
 
 import React, { useState } from "react";
 import Selector from "../Selector/selector.js";

@@ -1,4 +1,32 @@
+.selector {
+}
+
 .selector-background-image {
     width: 1200px;
     height: 500px;
+    opacity: 0.6;
+}
+
+.selector-description1 {
+    color: var(--dark);
+    position: relative;
+    top: 30%;
+    font-weight: bold;
+    font-size: 48px;
+    z-index: 100;
+}
+
+.selector-description2 {
+    color: var(--dark);
+    position: relative;
+    top: 30%;
+    font-size: 36px;
+}
+
+.selector-description3 {
+    color: var(--dark);
+    position: relative;
+    top: 30%;
+    font-weight: bold;
+    font-size: 36px;
 }
