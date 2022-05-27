@@ -1,12 +1,13 @@
 import "./footer.css";
 
 function Footer() {
-    console.log("Entering Footer component");
+    console.log(" *** Entering FOOTER component *** ");
 
+    // FYI, using semantic HTML as per https://www.w3schools.com/html/html5_semantic_elements.asp
     return (
-        <div className="full-footer">
-            <p>[Add Footer Content Here]</p>
-        </div>
+        <>
+            <footer className="full-footer">[Add Footer Content Here]</footer>
+        </>
     );
 }
 

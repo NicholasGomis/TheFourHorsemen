@@ -1,0 +1,10 @@
+.info-property {
+    border: 1px solid blue;
+    margin: 15px;
+    font-weight: bold;
+}
+.info-value {
+    border: 1px solid green;
+    margin: 15px;
+    font-weight: normal;
+}
