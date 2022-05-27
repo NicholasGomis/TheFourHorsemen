@@ -1,11 +1,19 @@
 .selector {
+    
+    
 }
 
 
 .selector-background-image {
-    width: 1200px;
+    width: 100%;
     height: 500px;
     opacity: 0.6;
+    
+}
+
+.description-container {
+   
+       
 }
 
 .selector-description1 {
@@ -35,4 +43,10 @@
     font-size: 36px;
     z-index: 100;
 
+
 }
+
+.selector-container{
+    display: flex;
+}
+
