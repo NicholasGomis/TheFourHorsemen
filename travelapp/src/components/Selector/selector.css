@@ -1,6 +1,7 @@
 .selector {
 }
 
+
 .selector-background-image {
     width: 1200px;
     height: 500px;
@@ -14,6 +15,7 @@
     font-weight: bold;
     font-size: 48px;
     z-index: 100;
+
 }
 
 .selector-description2 {
@@ -21,6 +23,8 @@
     position: relative;
     top: 30%;
     font-size: 36px;
+    z-index: 100;
+ 
 }
 
 .selector-description3 {
@@ -29,4 +33,6 @@
     top: 30%;
     font-weight: bold;
     font-size: 36px;
+    z-index: 100;
+
 }

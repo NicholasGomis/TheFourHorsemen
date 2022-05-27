@@ -4,6 +4,7 @@
     height: 100px;
     display: flex;
     justify-content: flex-end;
+    z-index: 200;
 }
 
 .wrap-1 {
@@ -13,11 +14,11 @@
 }
 
 .full-header-title {
-    color: #616161;
+    color: var(--dark);
     font-size: 16px;
 }
 
 .full-header-icon {
-    color: #616161;
+color: var(--green);
     font-size: 64px;
 }
