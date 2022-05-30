@@ -4,7 +4,10 @@
     display: flex;
     justify-content: flex-end;
     z-index: 200;
-    box-shadow: 510px 10px 37px -11px rgba(0, 0, 0, 0.75);
+
+    box-shadow: -5px 23px 69px -26px rgba(0, 0, 0, 0.71);
+    -webkit-box-shadow: -5px 23px 69px -26px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: -5px 23px 69px -26px rgba(0, 0, 0, 0.71);
 }
 
 .wrap-1 {

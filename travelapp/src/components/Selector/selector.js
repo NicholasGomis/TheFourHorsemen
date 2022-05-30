@@ -31,7 +31,12 @@ export function Selector({ buttonText, handleClick }) {
                     ></img>
                 </div>
             </div>
-            <FindHoliday buttonText={buttonText} handleClick={handleClick} />
+            <div className="wrap-bt">
+                <FindHoliday
+                    buttonText={buttonText}
+                    handleClick={handleClick}
+                />
+            </div>
         </section>
     );
 }
