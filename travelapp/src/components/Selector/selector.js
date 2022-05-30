@@ -17,20 +17,19 @@ export function Selector({ buttonText, handleClick }) {
 
     return (
         <section className="selector">
-            <Header />
             <div className="selector-container">
-            <div className="description-container">
-            <p className="selector-description1"> {notes}</p>
-            <p className="selector-description2"> {notes1}</p>
-            <p className="selector-description3"> {notes2}</p>
-            </div>
-            <div className="image-container">
-            <img
-                className="selector-background-image"
-                alt="background image of airplane"
-                src="bgImage.jpg"
-            ></img>
-            </div>
+                <div className="description-container">
+                    <p className="selector-description1"> {notes}</p>
+                    <p className="selector-description2"> {notes1}</p>
+                    <p className="selector-description3"> {notes2}</p>
+                </div>
+                <div className="image-container">
+                    <img
+                        className="selector-background-image"
+                        alt="background image of airplane"
+                        src="bgImage.jpg"
+                    ></img>
+                </div>
             </div>
             <FindHoliday buttonText={buttonText} handleClick={handleClick} />
         </section>

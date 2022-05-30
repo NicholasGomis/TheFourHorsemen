@@ -1,10 +1,10 @@
 .full-header {
     background-color: #faf9f9;
-    width: 100vw;
     height: 100px;
     display: flex;
     justify-content: flex-end;
     z-index: 200;
+    box-shadow: 510px 10px 37px -11px rgba(0, 0, 0, 0.75);
 }
 
 .wrap-1 {
@@ -19,6 +19,6 @@
 }
 
 .full-header-icon {
-color: var(--green);
+    color: var(--green);
     font-size: 64px;
 }

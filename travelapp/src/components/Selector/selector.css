@@ -1,52 +1,51 @@
 .selector {
-    
-    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 50;
 }
 
-
-.selector-background-image {
-    width: 100%;
-    height: 500px;
-    opacity: 0.6;
-    
-}
-
-.description-container {
-   
-       
-}
-
-.selector-description1 {
-    color: var(--dark);
+.selector-container {
     position: relative;
-    top: 30%;
-    font-weight: bold;
-    font-size: 48px;
-    z-index: 100;
+    color: var(--dark);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* ------------ image background style ------------- */
+.selector-background-image {
+    width: 100vw;
+    height: 600px;
+    opacity: 0.6;
+}
+
+/* ------------ text style ------------- */
+.description-container {
+    position: absolute;
+    z-index: 100;
+}
+.selector-description1 {
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .selector-description2 {
-    color: var(--dark);
-    position: relative;
-    top: 30%;
     font-size: 36px;
-    z-index: 100;
- 
+    font-weight: 300;
 }
 
 .selector-description3 {
-    color: var(--dark);
-    position: relative;
-    top: 30%;
-    font-weight: bold;
     font-size: 36px;
-    z-index: 100;
-
-
+    font-weight: 600;
 }
 
-.selector-container{
-    display: flex;
-}
+/* button style */
 
+FindHoliday {
+    padding-top: 2rem;
+}

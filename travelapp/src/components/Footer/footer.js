@@ -6,7 +6,14 @@ function Footer() {
     // FYI, using semantic HTML as per https://www.w3schools.com/html/html5_semantic_elements.asp
     return (
         <>
-            <footer className="full-footer">[Add Footer Content Here]</footer>
+            <footer className="full-footer">
+                <div className="wrap-footer">
+                    <a href="https://github.com/NicholasGomis/TheFourHorsemen/tree/safety-net/travelapp">
+                        © 2022 by The Four Horsemen
+                    </a>{" "}
+                    <i class="material-icons">cloud</i>
+                </div>
+            </footer>
         </>
     );
 }
