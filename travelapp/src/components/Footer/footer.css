@@ -1,0 +1,25 @@
+.full-footer {
+    height: 3rem;
+    background-color: var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    padding-right: 0.5rem;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: semi-bold;
+    font-size: 14px;
+}
+
+i {
+    color: var(--dark);
+}

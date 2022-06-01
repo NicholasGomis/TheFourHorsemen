@@ -1,4 +1,5 @@
 import "./App.css";
+import "../layout.css";
 
 import React, { useState } from "react";
 import Selector from "../Selector/selector.js";
@@ -6,6 +7,7 @@ import Display from "../Display/display.js";
 import Footer from "../Footer/footer.js";
 import { API_URL, API_URL_SPECIFIC_CODE_ROOT } from "../../libs/config.js";
 import { selectRandomCountryCode } from "../../libs/countryCodeList.js";
+import Header from "../Header/header";
 
 function App() {
     console.log(" *** Entering APP component *** ");
@@ -35,6 +37,7 @@ function App() {
 
     return (
         <div className="App">
+            <Header />
             <Selector buttonText={buttonText} handleClick={handleClick} />
             {isFindHolidayPressed ? (
                 <Display countryData={countryData} />
