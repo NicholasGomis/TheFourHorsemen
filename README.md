@@ -10,6 +10,60 @@ The app retrieves countries from a RESTful Country API and diplays the informati
 
 This repo was created as part of a Hackathon Friday, where the aim was to create an app in five hours, including design and presentation. There were four team members - Cintia, Israel, Nicholas and Sinead.
 
+Cintia:
+
+<p align="left">
+  <a href="YOUR_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+  <a href="YOUR_PORTFOLIO">
+    <img src="https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge"/>
+  </a>
+  <a href="YOUR_TWITTER">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</p>
+</br>
+
+Nicholas:
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/nicholasgomis/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+  <a href="https://portfolio-nicholasgomis.vercel.app">
+    <img src="https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge"/>
+  </a>
+  <a href="https://twitter.com/nicholasgomis">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</p>
+</br>
+
+Sinead:
+<p align="left">
+  <a href="YOUR_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+  <a href="YOUR_PORTFOLIO">
+    <img src="https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge"/>
+  </a>
+  <a href="TWITTER">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</p>
+</br>
+
+Israel:
+<p align="left">
+  <a href="YOUR_LINKEDIN">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"></a>
+  <a href="YOUR_PORTFOLIO">
+    <img src="https://img.shields.io/badge/Website-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website Badge"/>
+  </a>
+  <a href="TWITTER">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</p>
+</br>
+
 ## Project Documentation
 
 Further project documentation is available as follows:
