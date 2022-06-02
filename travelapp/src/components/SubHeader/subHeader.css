@@ -1,4 +1,6 @@
 .subheader {
     border: 1px solid red;
-    background-color: blue;
+    background-color:  var(--green);
+    width: 500px;
+    height: 45px;
 }

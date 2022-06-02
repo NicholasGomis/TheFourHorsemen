@@ -54,14 +54,14 @@ function Display({ countryData }) {
            <div className="display-left">
            
            <div className="country-info">
-            <Info
-                property="Country"
+            <Info 
+                // property="Country"
                 value={holidayCountry}
                 infoType={INFO_TEXT}
             />
 
                 <Info
-                property="Flag"
+                // property="Flag"
                 value={holidayFlagImagePath}
                 infoType={INFO_IMAGE}
             />
@@ -79,21 +79,23 @@ function Display({ countryData }) {
          
             <div className="know-container">
         <SubHeader subHeader={firstSubHeaderText} />
-        <SubHeader subHeader={secondSubHeaderText} />
-            <div className="currency">
+    
+            <div className="currency-container">
             <Info
-                property="currency-container"
+                property="currency"
                 value={holidayCurrency}
                 infoType={INFO_TEXT}
             />
+              <p>Car Side:</p>
             </div>
           
-            <p>Car Side:</p>
+          
             {/* <Info property="Which side to drive on" /> */}
         
           
             </div>
             <div className="learn-container">
+             <SubHeader subHeader={secondSubHeaderText} />
             <Info
                 property="Capital"
                 value={holidayCapital}
