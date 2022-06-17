@@ -49,78 +49,64 @@ function Display({ countryData }) {
 
     return (
         <section className="display-facts">
-         
-           
-           <div className="display-left">
-           
-           <div className="country-info">
-            <Info 
-                // property="Country"
-                value={holidayCountry}
-                infoType={INFO_TEXT}
-            />
+            <div className="display-left">
+                <div className="country-info">
+                    <Info
+                        // property="Country"
+                        value={holidayCountry}
+                        infoType={INFO_TEXT}
+                    />
 
-                <Info
-                // property="Flag"
-                value={holidayFlagImagePath}
-                infoType={INFO_IMAGE}
-            />
+                    <Info
+                        // property="Flag"
+                        value={holidayFlagImagePath}
+                        infoType={INFO_IMAGE}
+                    />
+                </div>
+                <p className="map-container">MAP:</p>
+                {/* <Info property="map to display" /> */}
+
+                <p className="timezone-container">TimeZone:</p>
             </div>
-            <p className="map-container">MAP:</p>
-            {/* <Info property="map to display" /> */}
-
-            
-            <p className="timezone-container">TimeZone:</p>
-        
-            </div>  
             {/* end of display-left container */}
-            
+
             <div className="display-right">
-         
-            <div className="know-container">
-        <SubHeader subHeader={firstSubHeaderText} />
-    
-            <div className="currency-container">
-            <Info
-                property="currency"
-                value={holidayCurrency}
-                infoType={INFO_TEXT}
-            />
-              <p>Car Side:</p>
-            </div>
-          
-          
-            {/* <Info property="Which side to drive on" /> */}
-        
-          
-            </div>
-            <div className="learn-container">
-             <SubHeader subHeader={secondSubHeaderText} />
-            <Info
-                property="Capital"
-                value={holidayCapital}
-                infoType={INFO_TEXT}
-            />
-            <Info
-                property="Continent"
-                value={holidayContinent}
-                infoType={INFO_TEXT}
-            />
-            <Info
-                property="Population"
-                value={holidayPopulation}
-                infoType={INFO_TEXT}
-            />
+                <div className="know-container">
+                    <SubHeader subHeader={firstSubHeaderText} />
 
-            <p className="language-container">Language:</p>
-              {/* <Info property="Language" /> */}
+                    <div className="currency-container">
+                        <Info
+                            property="currency"
+                            value={holidayCurrency}
+                            infoType={INFO_TEXT}
+                        />
+                        <p>Car Side:</p>
+                    </div>
 
+                    {/* <Info property="Which side to drive on" /> */}
+                </div>
+                <div className="learn-container">
+                    <SubHeader subHeader={secondSubHeaderText} />
+                    <Info
+                        property="Capital"
+                        value={holidayCapital}
+                        infoType={INFO_TEXT}
+                    />
+                    <Info
+                        property="Continent"
+                        value={holidayContinent}
+                        infoType={INFO_TEXT}
+                    />
+                    <Info
+                        property="Population"
+                        value={holidayPopulation}
+                        infoType={INFO_TEXT}
+                    />
+
+                    <p className="language-container">Language:</p>
+                    {/* <Info property="Language" /> */}
+                </div>
             </div>
-            </div>
-           
-      
-        
-          
         </section>
     );
 }

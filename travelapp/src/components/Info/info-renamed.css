@@ -1,23 +1,19 @@
 .info-property {
-    /* border: 1px solid blue; */
     margin: 15px;
     font-weight: bold;
     border-radius: 40px;
 }
 .info-value {
     display: inline-block;
-    border: 1px solid green;
     margin: 15px;
     font-weight: normal;
-
 }
 
- img{
-    border-radius: 40px;
-    
+img {
+    border-radius: 5px;
+    height: 48px;
+    width: 68px;
 }
 
-.infos{
-
-    border: 3px solid red;
+.infos {
 }
