@@ -3,7 +3,7 @@ import { Info } from "../Info/info.js";
 import { sampleData } from "../../libs/sampleData.js";
 import SubHeader from "../SubHeader/subHeader.js";
 import "./display.css";
-//console.log(sampleData);
+
 import { INFO_IMAGE, INFO_TEXT } from "../../libs/config.js";
 
 function Display({ countryData }) {
@@ -12,7 +12,27 @@ function Display({ countryData }) {
     const firstSubHeaderText = "Things to know before you go";
     // const holidayCountry = sampleData.name.common;
     const holidayCountry = countryData?.name?.common;
+    const holidayCarSide = countryData?.car.side;
+    const holidayLanguage = countryData?.languages;
+    const holidayTimezone = countryData?.timezones;
 
+    
+    
+    let languageToDisplay = '';
+    
+    for ( const key in countryData?.languages){
+        // Object.keys(holidayLanguage)[0];
+        let keyx = Object.keys(holidayLanguage)[0];
+        // console.log(`+++++++++`, holidayLanguage[keyx])
+        languageToDisplay = holidayLanguage[keyx]
+        
+    }
+
+
+
+    // holidayLanguage.forEach(item => {
+    //     console.log(`$$$$$$$$$$$$$$$$$$$`,item)
+    // })
     // TODO: finish mapping the curreny correctly to the display element.  Tricky because the key name changes each time.
     // const holidayCurrency = sampleData.currencies;
     const holidayCurrency = countryData?.currencies[0];
@@ -27,9 +47,11 @@ function Display({ countryData }) {
                 }
             });
         }
+        
     };
     //console.log(countryData?.currencies);
     getCurrency(countryData?.currencies);
+ 
 
     const secondSubHeaderText = "Learn more!";
     // const holidayCapital = sampleData.capital;
@@ -66,7 +88,11 @@ function Display({ countryData }) {
                 <p className="map-container">MAP:</p>
                 {/* <Info property="map to display" /> */}
 
-                <p className="timezone-container">TimeZone:</p>
+                  <Info
+                            property="Timezone"
+                            value={holidayTimezone}
+                            infoType={INFO_TEXT}
+                        />
             </div>
             {/* end of display-left container */}
 
@@ -84,7 +110,7 @@ function Display({ countryData }) {
 
                             <Info
                             property="Car Side:"
-                            value={holidayCurrency}
+                            value={holidayCarSide}
                             infoType={INFO_TEXT}
                         />
                       
@@ -113,8 +139,8 @@ function Display({ countryData }) {
                     />
 
                     {/* <p className="language-container">Language:</p> */}
-                    <Info property="Currency" 
-                     value={holidayCurrency}
+                    <Info property="Language" 
+                     value={languageToDisplay}
                      infoType={INFO_TEXT}
 
                     />
