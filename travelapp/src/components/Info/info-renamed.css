@@ -1,12 +1,14 @@
 .info-property {
-    margin: 15px;
+  
     font-weight: bold;
     border-radius: 40px;
+    padding: 10px;
+    color: grey;
 }
-.info-value {
-    display: inline-block;
-    margin: 15px;
-    font-weight: normal;
+.info-value {  
+    display: flex;
+    font-weight: bold;
+    padding: 10px;
 }
 
 img {
@@ -17,3 +19,4 @@ img {
 
 .infos {
 }
+

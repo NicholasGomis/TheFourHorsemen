@@ -11,7 +11,7 @@ function Footer() {
                     <a href="https://github.com/NicholasGomis/TheFourHorsemen/tree/safety-net/travelapp">
                         © 2022 by The Four Horsemen
                     </a>{" "}
-                    <i class="material-icons">cloud</i>
+                    <i className="material-icons">cloud</i>
                 </div>
             </footer>
         </>

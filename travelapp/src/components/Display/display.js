@@ -71,22 +71,25 @@ function Display({ countryData }) {
             {/* end of display-left container */}
 
             <div className="display-right">
+          
                 <div className="know-container">
                     <SubHeader subHeader={firstSubHeaderText} />
-
+          <div className="wrap-know-container">
                     <div className="currency-container">
                         <Info
-                            property="currency"
+                            property="Currency"
                             value={holidayCurrency}
                             infoType={INFO_TEXT}
                         />
                         <p>Car Side:</p>
                     </div>
-
+                </div>
                     {/* <Info property="Which side to drive on" /> */}
                 </div>
+                
                 <div className="learn-container">
                     <SubHeader subHeader={secondSubHeaderText} />
+                    <div className="wrap-learn-container">
                     <Info
                         property="Capital"
                         value={holidayCapital}
@@ -105,6 +108,7 @@ function Display({ countryData }) {
 
                     <p className="language-container">Language:</p>
                     {/* <Info property="Language" /> */}
+                </div>
                 </div>
             </div>
         </section>

@@ -1,6 +1,9 @@
 .subheader {
-    border: 1px solid red;
+    display: flex;
     background-color:  var(--green);
-    width: 500px;
+    width: 100%;
     height: 45px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 20px;
 }
