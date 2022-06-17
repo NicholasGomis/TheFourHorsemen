@@ -15,10 +15,9 @@ function Display({ countryData }) {
     const holidayCarSide = countryData?.car.side;
     const holidayLanguage = countryData?.languages;
     const holidayTimezone = countryData?.timezones;
-
-    
-    
+    const holidayCurrencies = countryData?.currencies;
     let languageToDisplay = '';
+    let currenciestoDisplay = '';
     
     for ( const key in countryData?.languages){
         // Object.keys(holidayLanguage)[0];
@@ -28,8 +27,14 @@ function Display({ countryData }) {
         
     }
 
-
-
+     for ( const key in countryData?.currencies){
+       
+        let keyx = Object.keys(holidayCurrencies)[0];
+        // console.log(`+++++++++`, holidayLanguage[keyx])
+        currenciestoDisplay = holidayCurrencies[keyx]
+        
+    }
+    console.log(`diusahdiuhsaiudhihsaiduhihs`, currenciestoDisplay.name)
     // holidayLanguage.forEach(item => {
     //     console.log(`$$$$$$$$$$$$$$$$$$$`,item)
     // })
@@ -104,7 +109,7 @@ function Display({ countryData }) {
                     <div className="currency-container">
                         <Info
                             property="Currency"
-                            value={holidayCurrency}
+                            value={currenciestoDisplay.name}
                             infoType={INFO_TEXT}
                         />
 
