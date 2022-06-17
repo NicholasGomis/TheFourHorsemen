@@ -81,7 +81,13 @@ function Display({ countryData }) {
                             value={holidayCurrency}
                             infoType={INFO_TEXT}
                         />
-                        <p>Car Side:</p>
+
+                            <Info
+                            property="Car Side:"
+                            value={holidayCurrency}
+                            infoType={INFO_TEXT}
+                        />
+                      
                     </div>
                 </div>
                     {/* <Info property="Which side to drive on" /> */}
@@ -106,8 +112,12 @@ function Display({ countryData }) {
                         infoType={INFO_TEXT}
                     />
 
-                    <p className="language-container">Language:</p>
-                    {/* <Info property="Language" /> */}
+                    {/* <p className="language-container">Language:</p> */}
+                    <Info property="Currency" 
+                     value={holidayCurrency}
+                     infoType={INFO_TEXT}
+
+                    />
                 </div>
                 </div>
             </div>
