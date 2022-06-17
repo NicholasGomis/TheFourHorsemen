@@ -109,7 +109,7 @@ function Display({ countryData }) {
                     <div className="currency-container">
                         <Info
                             property="Currency"
-                            value={currenciestoDisplay.name}
+                            value={currenciestoDisplay.symbol}
                             infoType={INFO_TEXT}
                         />
 
