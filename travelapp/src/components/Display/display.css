@@ -1,3 +1,24 @@
 .display-facts {
     display: flex;
 }
+
+/* .country-info{
+    border: 3px solid blue;
+} */
+
+.display-left{
+    border: 3px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+   
+}
+
+
+.display-right {
+    border: 3px solid violet;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 755px;
+    /* justify-content: flex-end; */
+}

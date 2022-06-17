@@ -7,7 +7,7 @@ export function Info({ property, value, infoType }) {
     // currency, carSide, capital, continent, population, language, timeZone
 
     return (
-        <div>
+        <div className="infos">
             <h4 className="info-property">{property}</h4>
             {infoType === INFO_TEXT ? (
                 <h4 className="info-value">{value}</h4>
